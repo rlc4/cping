@@ -292,7 +292,7 @@ sub cping {
 
 # add some settings for the user to twitch
 Irssi::settings_add_bool('cping', 'cping_faketime', 0);
-Irssi::settings_add_bool('cping', 'cping_debug', 1);
+Irssi::settings_add_bool('cping', 'cping_debug', 0);
 Irssi::settings_add_str('cping', 'cping_db_file', Irssi::get_irssi_dir . '/pings.db');
 # add the signal for incoming pings to be caught
 Irssi::signal_add('ctcp msg ping', 'sighandler_cping');
