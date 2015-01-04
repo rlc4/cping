@@ -306,6 +306,7 @@ Irssi::command_bind('cping list',\&cping_list);
 Irssi::command_bind('cping search',\&cping_search);
 Irssi::command_bind('cping disable',\&cping_disable);
 Irssi::command_bind('cping enable',\&cping_enable);
+Irssi::command_bind('cping help',\&cping_help);
 Irssi::command_bind('cping init',\&cping_init);
 
 cping_init;
